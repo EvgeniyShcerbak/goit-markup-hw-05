@@ -754,6 +754,7 @@ placeholder {
 .btn-modal-window:focus {
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
 
 .icon-close-btn-modal-window {
@@ -777,7 +778,6 @@ placeholder {
 
 }
 
-.form-backdrop {}
 
 .content-model-window {
     margin-bottom: 8px;
