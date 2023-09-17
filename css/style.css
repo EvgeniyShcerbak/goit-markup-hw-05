@@ -9,6 +9,7 @@
 
 button {
     cursor: pointer;
+    font-family: "Roboto", sans-serif;
 }
 
 h1,
@@ -36,6 +37,11 @@ img {
 body {
     font-family: "Roboto", sans-serif;
 }
+
+input {
+    font-family: "Roboto", sans-serif;
+}
+
 
 .container {
     width: 1158px;
@@ -620,4 +626,14 @@ body {
 
 .social-media-icon-footer {
     fill: #f4f4fd;
+}
+
+.form-footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.label-form {
+    display: flex;
+    flex-direction: column;
 }
