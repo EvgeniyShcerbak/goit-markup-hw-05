@@ -715,9 +715,9 @@ placeholder {
     top: 50%;
     transform: translate(-50%, -50%) scale(1);
     width: 408px;
-    min-height: 548px;
+    min-height: 584px;
     background: #fcfcfc;
-    box-shadow: зі значенням 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 72px 24px 24px 24px;
@@ -798,6 +798,7 @@ placeholder {
     padding-left: 38px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     outline: transparent;
+    background-color: transparent;
 }
 
 .input-user-name:hover,
@@ -817,8 +818,9 @@ placeholder {
     fill: #4D5AE5;
 }
 
-.content-model-window-coment {
+.content-model-window-comment {
     margin-bottom: 16px;
+    position: relative;
 }
 
 .comment-textarea-model-window {
